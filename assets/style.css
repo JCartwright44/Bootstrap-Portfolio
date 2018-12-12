@@ -1,0 +1,24 @@
+.myPhoto {
+    float: left;
+    margin-right: 10px;
+    }
+
+.inputMessage {
+    height: 50px;
+    }
+
+footer {
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    width: 100%
+}
+
+body {
+    background-image: url("../assets/Images/background.jpg");
+    background-size: 100%;
+}
+
+.card {
+    margon-bottom: 10px;
+}
