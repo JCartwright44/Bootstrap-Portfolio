@@ -15,7 +15,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto flex-nowrap">
                     <li class="nav-item navAboutMe">
                         <a href="#" class="nav-link m-2 menu-item">About Me</a>
@@ -26,7 +26,6 @@
                     <li class="nav-item navContactActive">
                         <a href="#" class="nav-link m-2 menu-item">Contact</a>
                     </li>
-                    <!-- Make contact title white -->
                 </ul>
             </div>
       </nav>
@@ -34,18 +33,18 @@
         <div class="row">
           <div class="col">
           </div>
-          <div class="col-9">
+          <div class="col-sm-9" style="margin: 30px; overflow: auto;" >
             <div class="card">
                 <div class="card-body">
                     <div class="container">
                         <div class="row">
-                          <div class="col">
+                          <div class="col-sm">
                               <h4>Contact Me</h4>
                               <hr/>
                             </div>
                         </div>
                         <div class="row">
-                          <div class="col">
+                          <div class="col-sm">
                                 <form>
                                     <div class="form-group">
                                         <label for="InputName">Name</label>
@@ -73,11 +72,13 @@
         </div>
     </div>
 
-    <footer class="page-footer font-small blue fixed-bottom">
+    <footer class="page-footer font-small blue bg-dark fixed-bottom">
         <div class="footer-copyright text-center py-3">Copyright ©
         </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 </html>

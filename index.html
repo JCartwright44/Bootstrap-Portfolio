@@ -6,48 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jason Cartwright</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Jason Cartwright</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-                        <ul class="navbar-nav ml-auto flex-nowrap">
-                            <li class="nav-item navAboutMeActive">
-                                <a href="..css" class="nav-link m-2 menu-item nav-active">About Me</a>
-                                <!-- Make the About Me title white -->
-                            </li>
-                            <li class="nav-item navPortfolio">
-                                <a href="#" class="nav-link m-2 menu-item">Portfolio</a>
-                            </li>
-                            <li class="nav-item nav Contact">
-                                <a href="#" class="nav-link m-2 menu-item">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-              </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Jason Cartwright</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item navAboutMe">
+                        <a href="#" class="nav-link m-2 menu-item nav-active">About Me</a>
+                    </li>
+                    <li class="nav-item navPortfolioActive">
+                        <a href="#" class="nav-link m-2 menu-item">Portfolio</a>
+                    </li>
+                    <!-- Make the Portfolio title white -->
+                    <li class="nav-item navContact">
+                        <a href="#" class="nav-link m-2 menu-item">Contact</a>
+                    </li>
+                </ul>
+            </div>
+      </nav>
       <div class="container">
         <div class="row">
           <div class="col">
           </div>
-          <div class="col-8">
+          <div class="col-sm-9" style="background-color: white; margin: 20px;">
             <div class="row">
-                <div class="col">
+                <div class="col-sm">
                     <h2>About Me</h2>
                     <hr>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <img class="myPhoto" src="https://via.placeholder.com/150x150" alt="My Image">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi corporis, natus ipsam minima ut impedit? Sapiente, fugit cupiditate! Adipisci sequi odit dolor perferendis quas culpa provident quisquam dignissimos, maxime sit.
-                    </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique consequatur suscipit in et? Repellat error atque odio numquam omnis soluta dolorum ipsa placeat! Similique vitae natus vero, suscipit tempora qui.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, blanditiis repudiandae veritatis aspernatur molestiae animi dolore incidunt et consectetur consequuntur perferendis. Rem, voluptas explicabo. Magni dolor nesciunt porro eveniet labore.</p>
+            <div class="row" >
+                <div class="col-sm">
+                    <img class="myPhoto" src="assets/images/photo.jpg"" alt="My Image" width="200" height="200" alt="Image of me">
+                    <p>
+                        Jason hails from Chicago, where he grew up and lived most of his life before moving to Sacramento with his family. Jason 
+                        has always had a passion for coding and front-end web development. He lives with his wife and two small children in Gold
+                        River a suburb of Sacramento.
+                        </p> 
+                        
+                        <p>
+                        Working as a User Experience Researcher at SMUD, the Sacrament Municipal Utility District, Jason has worked hand in hand with 
+                        User Experience designers and front end web developers, creating the experiences on the award winning SMUD website. 
+                        </p>
+                        
+                        <p>
+                            Jason began his budding web development career by attending the UC Davis Extension Coding Bootcamp. With this bootcamp,
+                            Jason has honed the skills necessary to excel at any development task anywhere within the stack. He is excited to keep on
+                            learning and making an impact on your company's stack.
+                        </p>
+                        <p>
+                            Jason has is excited to continue creating web pages and begin creating apps for himself and others. He has worked hard to understand 
+                            the nuances and quirks of web development and looks forward to continuing to grow.
+
+                        </p>
+                            
+                        <p>
+                            Jason plans to continue learning as much as he can at the current bootcamp he attends and learn the framework and skills to continue
+                            learning long after this bootcamp has ended.
+                        </p>
                 </div>
             </div>
           </div>
@@ -55,11 +77,12 @@
           </div>
         </div>
         </div>
-      </div>
-      <footer class="page-footer font-small blue fixed-bottom">
+          <footer class="page-footer font-small blue bg-dark fixed-bottom">
         <div class="footer-copyright text-center py-3">Copyright ©
         </div>
       </footer>
-    <!-- Use CSS to make the copyright sticky to the bottom of the page. -->
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -17,14 +17,48 @@ footer {
 }
 
 body {
-    background-image: url("../assets/Images/background.jpg");
+    background-image: url("../assets/Images/stonehaven.png");
     background-size: 100%;
     background-attachment: fixed;
-    background-repeat: no-repeat;
     background-position: relative;
     margin-bottom: 30px;
+    height: 100%;
+    min-height: 100%;
+    bottom: 0;
 }
 
+html {
+    height: 100%;
+}
 .card {
-    margon-bottom: 10px;
+    margin: 20px;
+}
+
+.col-8 {
+    margin: 30px;
+}
+
+.col-9 {
+    margin: 30px;
+}
+
+.card-img-top {
+    height: 75%;
+    width: 100%;
+}
+
+.footer {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    vertical-align: text-bottom;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-top-color: black;
+    margin: 0 auto;
+    position: relative;
+    bottom: 0px; 
+    z-index: 100;
+    left: 0;
 }
